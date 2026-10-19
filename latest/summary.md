@@ -1,27 +1,26 @@
-# ASX Screener Summary 2026-10-18
+# ASX 200 Screener — 2026-10-19 (Australia/Sydney)
 
-ASX 200 screen: 195 tickers analysed; 5 data issues (ASK, IFL, NSR, QUB, XYX: 'Index' object has no attribute 'tz').
+- **Tickers analysed:** 195 (5 data issues: ASK, IFL, NSR, QUB, XYX — all "'Index' object has no attribute 'tz'")
+- **Candidates passing all four minimum scores (Graham≥3, Momentum≥2, CashGen≥3, Leverage≥4):** NEM, S32, CPU, RMD
 
-## Top 10 by composite score
+## Top 10 by Composite Score (0-24)
+| # | Ticker | Company | Sector | Price | Composite | Graham | Mom | Cash | Lev | P/E |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | NEM | Newmont CDI | Materials | 169.22 | 18 | 4 | 3 | 5 | 6 | 14.5 |
+| 2 | S32 | South32 | Materials | 4.51 | 18 | 6 | 3 | 3 | 6 | 12.9 |
+| 3 | CPU | Computershare | Info Tech | 42.40 | 17 | 3 | 3 | 5 | 6 | 26.8 |
+| 4 | RMD | ResMed CDI | Healthcare | 34.07 | 16 | 3 | 2 | 6 | 5 | 22.1 |
+| 5 | BHP | BHP Group | Materials | 60.46 | 15 | 2 | 3 | 4 | 6 | 21.2 |
+| 6 | AAI | Alcoa CDI | Materials | 60.64 | 15 | 5 | 1 | 4 | 5 | 7.3 |
+| 7 | WDS | Woodside | Energy | 34.03 | 15 | 5 | 3 | 2 | 5 | 14.4 |
+| 8 | NWS | News Corp B | Comm Services | 47.32 | 15 | 2 | 3 | 5 | 5 | 31.1 |
+| 9 | CIA | Champion Iron | Materials | 2.35 | 15 | 6 | 0 | 4 | 5 | 10.7 |
+| 10 | RDX | Redox | Industrials | 3.53 | 14 | 3 | 3 | 2 | 6 | 20.8 |
 
-| Ticker   | Company                  | Sector                 |   Price |    P/E |   P/B |   Margin of Safety % |   Graham Score (0-6) |   % vs SMA200 |   Composite Score (0-24) |
-|:---------|:-------------------------|:-----------------------|--------:|-------:|------:|---------------------:|---------------------:|--------------:|-------------------------:|
-| NEM      | NEWMONT CDI 1:1 [NEM]    | Materials              |  166.17 | 14.19  | 3.454 |               -0.322 |                    4 |         0.047 |                       18 |
-| S32      | SOUTH32 FPO [S32]        | Materials              |    4.63 | 13.229 | 1.487 |                0.07  |                    6 |         0.044 |                       18 |
-| CPU      | CSHARE FPO [CPU]         | Information Technology |   41.95 | 26.551 | 7.347 |               -0.66  |                    3 |         0.208 |                       17 |
-| RMD      | RESMED CDI 10:1 [RMD]    | Healthcare             |   34.35 | 22.305 | 2.091 |               -0.305 |                    3 |         0.08  |                       16 |
-| BHP      | BHP GROUP FPO [BHP]      | Materials              |   60.03 | 21.063 | 4.161 |               -0.493 |                    2 |         0.068 |                       15 |
-| AAI      | ALCOA CORP CDI 1:1 [AAI] | Materials              |   59.38 |  7.128 | 1.315 |                0.549 |                    5 |        -0.273 |                       15 |
-| WDS      | WOODSIDE FPO [WDS]       | Energy                 |   33.14 | 13.983 | 1.214 |                0.151 |                    5 |         0.115 |                       15 |
-| NWS      | NEWS CORP B VOTING [NWS] | Communication Services |   47.66 | 31.355 | 2.102 |               -0.416 |                    2 |         0.109 |                       15 |
-| CIA      | CHAMP IRON FPO [CIA]     | Materials              |    2.38 | 10.818 | 0.815 |                0.598 |                    6 |        -0.465 |                       15 |
-| RRL      | REGIS FPO [RRL]          | Materials              |    7.1  |  7.553 | 2.464 |                0.1   |                    5 |         0.001 |                       14 |
+Next: PRU, SOL, YAL (14), BRG, EMR (13).
 
-## Candidates (pass all four minimum scores): 4
-
-| Ticker   | Company               | Sector                 |   Price |    P/E |   P/B |   Margin of Safety % |   Graham Score (0-6) |   % vs SMA200 |   Composite Score (0-24) |
-|:---------|:----------------------|:-----------------------|--------:|-------:|------:|---------------------:|---------------------:|--------------:|-------------------------:|
-| NEM      | NEWMONT CDI 1:1 [NEM] | Materials              |  166.17 | 14.19  | 3.454 |               -0.322 |                    4 |         0.047 |                       18 |
-| S32      | SOUTH32 FPO [S32]     | Materials              |    4.63 | 13.229 | 1.487 |                0.07  |                    6 |         0.044 |                       18 |
-| CPU      | CSHARE FPO [CPU]      | Information Technology |   41.95 | 26.551 | 7.347 |               -0.66  |                    3 |         0.208 |                       17 |
-| RMD      | RESMED CDI 10:1 [RMD] | Healthcare             |   34.35 | 22.305 | 2.091 |               -0.305 |                    3 |         0.08  |                       16 |
+## Notable
+- Materials dominates the top of the table (NEM, S32, BHP, AAI, CIA).
+- S32 is the only top name with positive Graham margin of safety (+10%); NEM trades ~34% above its Graham number.
+- DCF upside is mostly negative for the leaders (S32 -33%, BHP -48%); NWS shows +144%.
+- Data_Issues: 5 tickers failed with a yfinance timezone-index error.
