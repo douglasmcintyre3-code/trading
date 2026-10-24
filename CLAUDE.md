@@ -35,5 +35,9 @@ Off Windows the workbook is written to `output/ASX_Stock_Screener_<target>.xlsx`
    `Composite Score (0-24)`, every ticker in `Candidates`, and any tickers listed
    on `Data_Issues`.
 
-For the `Banking` watchlist, note that the Graham current-ratio, Leverage and
-FCF metrics don't suit lenders - lead the summary with P/E, P/B, ROE and momentum.
+For the lender watchlists (`Banking`, `Big Four Banks`), the Graham current-ratio,
+Leverage and FCF metrics don't suit lenders, so the notebook ranks them by
+`Lender Composite (0-9)` (Lender Score + Momentum) instead of the Composite
+Score, and adds a `Lenders` sheet. Use that column in place of
+`Composite Score (0-24)` for the top 10, and lead with P/E, P/B, ROE, dividend
+yield and momentum.
