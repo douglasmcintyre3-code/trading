@@ -1,31 +1,27 @@
-# ASX Screener Summary 2026-10-26
+# ASX Screener Summary 2026-10-28
 
-**Universe:** ASX 200 — 195 tickers analysed (200 requested; 5 had no price data).
-
-## Candidates (pass all four minimum scores)
-| Ticker | Company | Sector | Price | P/E | P/B | Div Yield | Composite |
-|---|---|---|---|---|---|---|---|
-| NEM | Newmont | Materials | 156.65 | 12.6 | 3.22 | 0.7% | 18 |
-| CPU | Computershare | Info Tech | 43.10 | 27.3 | 7.67 | 1.9% | 17 |
-| S32 | South32 | Materials | 4.26 | 12.2 | 1.38 | 2.3% | 17 |
-| RMD | ResMed | Healthcare | 35.84 | 23.3 | 2.21 | 6.7% | 16 |
+Stocks screened: 195 (ASX 200). Data issues (no price history): ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX
 
 ## Top 10 by Composite Score (0-24)
-| # | Ticker | Company | Composite | P/E | P/B | Graham MoS | vs SMA200 |
-|---|---|---|---|---|---|---|---|
-| 1 | NEM | Newmont | 18 | 12.6 | 3.22 | -25% | -1.3% |
-| 2 | SOL | Soul Patts | 17 | 7.8 | 1.37 | +45% | +9.3% |
-| 3 | CPU | Computershare | 17 | 27.3 | 7.67 | -67% | +23.0% |
-| 4 | S32 | South32 | 17 | 12.2 | 1.38 | +16% | -4.3% |
-| 5 | RMD | ResMed | 16 | 23.3 | 2.21 | -34% | +12.9% |
-| 6 | NWS | News Corp B | 15 | 31.8 | 2.17 | -43% | +12.2% |
-| 7 | WDS | Woodside | 15 | 14.0 | 1.23 | +15% | +10.1% |
-| 8 | CIA | Champ Iron | 15 | 10.0 | 0.75 | +73% | -49.4% |
-| 9 | PRU | Perseus | 14 | 11.9 | 2.27 | -9% | +0.6% |
-| 10 | BHP | BHP Group | 14 | 19.5 | 3.90 | -46% | -1.7% |
 
-## Notable
-- Strongest momentum (score 3): ANN (+41% vs SMA200), CSL (+37%), AMP (+36%), CDA, CGF, RHC.
-- Highest Graham scores (6/6): ZIM, CLW, CIA, SOL, S32.
-- Only NEM has a positive DCF upside (+20%) among top names; WOR and NWS show large (likely unreliable, high-growth-assumption) DCF upsides.
-- Data issues (no price history): ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX.
+| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | DCF Upside % | Composite Score (0-24) |
+|---|---|---|---|---|---|---|---|---|---|
+| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.01 | 12.74 | 3.27 | 4 | 3 | 0.18 | 19 |
+| SOL | SOUL W.H. FPO [SOL] | Financials | 45.06 | 7.66 | 1.34 | 6 | 3 | nan | 17 |
+| CPU | CSHARE FPO [CPU] | Information Technology | 42.92 | 27.16 | 7.64 | 3 | 3 | nan | 17 |
+| S32 | SOUTH32 FPO [S32] | Materials | 4.44 | 12.69 | 1.44 | 6 | 2 | -0.32 | 17 |
+| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 35.13 | 22.81 | 2.16 | 3 | 2 | -0.11 | 16 |
+| NWS | NEWS CORP B VOTING [NWS] | Communication Services | 46.43 | 30.55 | 2.08 | 2 | 3 | 1.48 | 15 |
+| WDS | WOODSIDE FPO [WDS] | Energy | 32.13 | 13.56 | 1.19 | 5 | 3 | nan | 15 |
+| CIA | CHAMP IRON FPO [CIA] | Materials | 2.26 | 10.27 | 0.78 | 6 | 0 | -1.34 | 15 |
+| PRU | PERSEUS FPO [PRU] | Materials | 5.89 | 12.53 | 2.39 | 4 | 3 | nan | 14 |
+| RDX | REDOX LTD FPO [RDX] | Industrials | 3.48 | 20.47 | 3.25 | 3 | 3 | nan | 14 |
+
+## Candidates (pass all four minimum scores)
+
+| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | DCF Upside % | Composite Score (0-24) |
+|---|---|---|---|---|---|---|---|---|---|
+| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.01 | 12.74 | 3.27 | 4 | 3 | 0.18 | 19 |
+| CPU | CSHARE FPO [CPU] | Information Technology | 42.92 | 27.16 | 7.64 | 3 | 3 | nan | 17 |
+| S32 | SOUTH32 FPO [S32] | Materials | 4.44 | 12.69 | 1.44 | 6 | 2 | -0.32 | 17 |
+| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 35.13 | 22.81 | 2.16 | 3 | 2 | -0.11 | 16 |
