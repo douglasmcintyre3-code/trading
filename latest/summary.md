@@ -1,27 +1,26 @@
-# ASX Screener Summary 2026-10-28
+# ASX Screener Summary 2026-10-30 (ASX 200)
 
-Stocks screened: 195 (ASX 200). Data issues (no price history): ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX
+Screened: 195 tickers (5 with no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX — listed on Data_Issues).
 
 ## Top 10 by Composite Score (0-24)
-
-| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | DCF Upside % | Composite Score (0-24) |
-|---|---|---|---|---|---|---|---|---|---|
-| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.01 | 12.74 | 3.27 | 4 | 3 | 0.18 | 19 |
-| SOL | SOUL W.H. FPO [SOL] | Financials | 45.06 | 7.66 | 1.34 | 6 | 3 | nan | 17 |
-| CPU | CSHARE FPO [CPU] | Information Technology | 42.92 | 27.16 | 7.64 | 3 | 3 | nan | 17 |
-| S32 | SOUTH32 FPO [S32] | Materials | 4.44 | 12.69 | 1.44 | 6 | 2 | -0.32 | 17 |
-| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 35.13 | 22.81 | 2.16 | 3 | 2 | -0.11 | 16 |
-| NWS | NEWS CORP B VOTING [NWS] | Communication Services | 46.43 | 30.55 | 2.08 | 2 | 3 | 1.48 | 15 |
-| WDS | WOODSIDE FPO [WDS] | Energy | 32.13 | 13.56 | 1.19 | 5 | 3 | nan | 15 |
-| CIA | CHAMP IRON FPO [CIA] | Materials | 2.26 | 10.27 | 0.78 | 6 | 0 | -1.34 | 15 |
-| PRU | PERSEUS FPO [PRU] | Materials | 5.89 | 12.53 | 2.39 | 4 | 3 | nan | 14 |
-| RDX | REDOX LTD FPO [RDX] | Industrials | 3.48 | 20.47 | 3.25 | 3 | 3 | nan | 14 |
+| # | Ticker | Company | Sector | Price | Composite | Graham (0-6) | vs SMA200 |
+|---|---|---|---|---|---|---|---|
+| 1 | CPU | Computershare | Info Tech | 43.24 | 17 | 3 | +23% |
+| 2 | SOL | Soul Patts | Financials | 45.77 | 17 | 6 | +8% |
+| 3 | NEM | Newmont CDI | Materials | 156.12 | 17 | 4 | -2% |
+| 4 | S32 | South32 | Materials | 4.34 | 17 | 6 | -3% |
+| 5 | RMD | ResMed CDI | Healthcare | 35.51 | 16 | 3 | +12% |
+| 6 | NWS | News Corp B | Comm Services | 45.99 | 15 | 2 | +7% |
+| 7 | WDS | Woodside | Energy | 33.33 | 15 | 5 | +10% |
+| 8 | CIA | Champion Iron | Materials | 1.91 | 15 | 6 | -55% |
+| 9 | PRU | Perseus | Materials | 5.82 | 14 | 4 | +5% |
+| 10 | ALK | Alkane | Materials | 1.61 | 14 | 5 | +1% |
 
 ## Candidates (pass all four minimum scores)
+- CPU — Composite 17, Graham 3
+- S32 — Composite 17, Graham 6, margin of safety ~13%
+- RMD — Composite 16, Graham 3
 
-| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | DCF Upside % | Composite Score (0-24) |
-|---|---|---|---|---|---|---|---|---|---|
-| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.01 | 12.74 | 3.27 | 4 | 3 | 0.18 | 19 |
-| CPU | CSHARE FPO [CPU] | Information Technology | 42.92 | 27.16 | 7.64 | 3 | 3 | nan | 17 |
-| S32 | SOUTH32 FPO [S32] | Materials | 4.44 | 12.69 | 1.44 | 6 | 2 | -0.32 | 17 |
-| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 35.13 | 22.81 | 2.16 | 3 | 2 | -0.11 | 16 |
+## Notable
+- Some Summary rows (e.g. CPU, ALK) look column-shifted/odd in the source data (market cap and P/E values implausible), so treat their fundamentals with caution.
+- CIA trades 55% below its SMA200 despite a high composite score.
