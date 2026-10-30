@@ -22,5 +22,6 @@ Screened: 195 tickers (5 with no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, 
 - RMD — Composite 16, Graham 3
 
 ## Notable
-- Some Summary rows (e.g. CPU, ALK) look column-shifted/odd in the source data (market cap and P/E values implausible), so treat their fundamentals with caution.
+- Data gaps: CPU and ALK have missing/implausible Market Cap values, and many tickers (e.g. BHP, CBA, MQG) lack EPS/P/E/P/B fundamentals, so their Graham metrics are incomplete.
+- Key metrics: CPU P/E 27.4, P/B 7.7; SOL P/E 7.8, P/B 1.4, MoS +46%; S32 P/E 12.4, P/B 1.4, MoS +13%; RMD P/E 23.1, P/B 2.2.
 - CIA trades 55% below its SMA200 despite a high composite score.
