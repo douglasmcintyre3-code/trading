@@ -1,27 +1,26 @@
-# ASX Screener Summary 2026-10-30 (ASX 200)
+# ASX Screener Summary 2026-11-02 (ASX 200)
 
-Screened: 195 tickers (5 with no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX — listed on Data_Issues).
+- Run: scheduled, Mon 2026-11-02 07:05 UTC. 195 tickers analysed; 5 had no price history (Data_Issues: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX).
+- Candidates passing all four minimum scores: 3 (CPU, S32, RMD).
 
 ## Top 10 by Composite Score (0-24)
-| # | Ticker | Company | Sector | Price | Composite | Graham (0-6) | vs SMA200 |
-|---|---|---|---|---|---|---|---|
-| 1 | CPU | Computershare | Info Tech | 43.24 | 17 | 3 | +23% |
-| 2 | SOL | Soul Patts | Financials | 45.77 | 17 | 6 | +8% |
-| 3 | NEM | Newmont CDI | Materials | 156.12 | 17 | 4 | -2% |
-| 4 | S32 | South32 | Materials | 4.34 | 17 | 6 | -3% |
-| 5 | RMD | ResMed CDI | Healthcare | 35.51 | 16 | 3 | +12% |
-| 6 | NWS | News Corp B | Comm Services | 45.99 | 15 | 2 | +7% |
-| 7 | WDS | Woodside | Energy | 33.33 | 15 | 5 | +10% |
-| 8 | CIA | Champion Iron | Materials | 1.91 | 15 | 6 | -55% |
-| 9 | PRU | Perseus | Materials | 5.82 | 14 | 4 | +5% |
-| 10 | ALK | Alkane | Materials | 1.61 | 14 | 5 | +1% |
+| Ticker | Company | Sector | Price | P/E | P/B | Composite | Graham | Momentum | Div Yield | DCF Upside |
+|---|---|---|---|---|---|---|---|---|---|---|
+| CPU | Computershare | Info Tech | 42.72 | 27.0 | 7.60 | 17 | 3 | 3 | 1.9% | n/a |
+| SOL | Soul Patts | Financials | 45.54 | 7.7 | 1.36 | 17 | 6 | 3 | 2.4% | n/a |
+| NEM | Newmont CDI | Materials | 152.50 | 12.2 | 3.13 | 17 | 4 | 1 | 0.7% | +23% |
+| S32 | South32 | Materials | 4.33 | 12.4 | 1.41 | 17 | 6 | 2 | 2.1% | -30% |
+| RMD | ResMed CDI | Healthcare | 33.46 | 21.0 | 2.23 | 16 | 3 | 2 | 6.9%* | -7% |
+| NWS | News Corp B | Comm Services | 45.40 | 29.9 | 2.03 | 15 | 2 | 3 | 0.4% | +154% |
+| WDS | Woodside | Energy | 33.42 | 14.1 | 1.24 | 15 | 5 | 3 | 3.5% | n/a |
+| AAI | Alcoa CDI | Materials | 55.32 | 6.6 | 1.25 | 15 | 5 | 1 | 0.7% | -5% |
+| PRU | Perseus | Materials | 5.82 | 12.4 | 2.36 | 14 | 4 | 3 | 1.7% | n/a |
+| RDX | Redox | Industrials | 3.47 | 20.4 | 3.24 | 14 | 3 | 3 | 3.7% | n/a |
 
-## Candidates (pass all four minimum scores)
-- CPU — Composite 17, Graham 3
-- S32 — Composite 17, Graham 6, margin of safety ~13%
-- RMD — Composite 16, Graham 3
+## Candidates sheet
+CPU (17), S32 (17), RMD (16).
 
 ## Notable
-- Data gaps: CPU and ALK have missing/implausible Market Cap values, and many tickers (e.g. BHP, CBA, MQG) lack EPS/P/E/P/B fundamentals, so their Graham metrics are incomplete.
-- Key metrics: CPU P/E 27.4, P/B 7.7; SOL P/E 7.8, P/B 1.4, MoS +46%; S32 P/E 12.4, P/B 1.4, MoS +13%; RMD P/E 23.1, P/B 2.2.
-- CIA trades 55% below its SMA200 despite a high composite score.
+- *RMD dividend yield of 6.9% looks like a data glitch (ResMed's real yield is ~1%); treat with caution. NWS DCF upside of +154% is likewise suspect.
+- Several prices look unusual (e.g. CPU, NEM) - verify against live quotes before acting.
+- Not financial advice.
