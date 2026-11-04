@@ -1,26 +1,25 @@
-# ASX Screener Summary 2026-11-02 (ASX 200)
+# ASX 200 Screener – 2026-11-04 (Australia/Sydney)
 
-- Run: scheduled, Mon 2026-11-02 07:05 UTC. 195 tickers analysed; 5 had no price history (Data_Issues: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX).
-- Candidates passing all four minimum scores: 3 (CPU, S32, RMD).
+195 of 200 tickers analysed. 5 had no price history (Data_Issues): ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX. Some Yahoo 401 "Invalid Crumb" errors appeared for individual fundamentals calls.
 
 ## Top 10 by Composite Score (0-24)
-| Ticker | Company | Sector | Price | P/E | P/B | Composite | Graham | Momentum | Div Yield | DCF Upside |
-|---|---|---|---|---|---|---|---|---|---|---|
-| CPU | Computershare | Info Tech | 42.72 | 27.0 | 7.60 | 17 | 3 | 3 | 1.9% | n/a |
-| SOL | Soul Patts | Financials | 45.54 | 7.7 | 1.36 | 17 | 6 | 3 | 2.4% | n/a |
-| NEM | Newmont CDI | Materials | 152.50 | 12.2 | 3.13 | 17 | 4 | 1 | 0.7% | +23% |
-| S32 | South32 | Materials | 4.33 | 12.4 | 1.41 | 17 | 6 | 2 | 2.1% | -30% |
-| RMD | ResMed CDI | Healthcare | 33.46 | 21.0 | 2.23 | 16 | 3 | 2 | 6.9%* | -7% |
-| NWS | News Corp B | Comm Services | 45.40 | 29.9 | 2.03 | 15 | 2 | 3 | 0.4% | +154% |
-| WDS | Woodside | Energy | 33.42 | 14.1 | 1.24 | 15 | 5 | 3 | 3.5% | n/a |
-| AAI | Alcoa CDI | Materials | 55.32 | 6.6 | 1.25 | 15 | 5 | 1 | 0.7% | -5% |
-| PRU | Perseus | Materials | 5.82 | 12.4 | 2.36 | 14 | 4 | 3 | 1.7% | n/a |
-| RDX | Redox | Industrials | 3.47 | 20.4 | 3.24 | 14 | 3 | 3 | 3.7% | n/a |
+| # | Ticker | Company | Sector | Price | P/E | P/B | Graham | Mom | Cash | Lev | Score |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | CPU | Computershare | Info Tech | 41.94 | 26.5 | 7.46 | 3 | 3 | 5 | 6 | 17 |
+| 2 | SOL | Soul Patts | Financials | 46.63 | 7.9 | 1.39 | 6 | 3 | 2 | 6 | 17 |
+| 3 | NEM | Newmont CDI | Materials | 154.30 | 12.4 | 3.17 | 4 | 1 | 6 | 6 | 17 |
+| 4 | S32 | South32 | Materials | 4.27 | 12.2 | 1.39 | 6 | 1 | 3 | 6 | 16 |
+| 5 | RMD | ResMed CDI | Healthcare | 33.43 | 21.0 | 2.22 | 3 | 2 | 6 | 5 | 16 |
+| 6 | NWS | News Corp B | Comm Services | 46.43 | 30.5 | 2.08 | 2 | 3 | 5 | 5 | 15 |
+| 7 | WDS | Woodside | Energy | 32.55 | 13.7 | 1.21 | 5 | 3 | 2 | 5 | 15 |
+| 8 | RDX | Redox | Industrials | 3.41 | 20.1 | 3.18 | 3 | 3 | 2 | 6 | 14 |
+| 9 | PRU | Perseus | Materials | 5.82 | 12.4 | 2.36 | 4 | 3 | 1 | 6 | 14 |
+| 10 | AAI | Alcoa CDI | Materials | 55.66 | 6.7 | 1.25 | 5 | 0 | 4 | 5 | 14 |
 
-## Candidates sheet
-CPU (17), S32 (17), RMD (16).
+## Candidates (pass all four minimum scores) – 2 of 195
+- **CPU** – score 17, ROE 27%, div yield 2.0%, Graham margin of safety -66% (expensive on Graham basis).
+- **RMD** – score 16, ROE 23%, div yield 7.4% (as reported in file), Graham MoS -31%, DCF upside -7%.
 
 ## Notable
-- *RMD dividend yield of 6.9% looks like a data glitch (ResMed's real yield is ~1%); treat with caution. NWS DCF upside of +154% is likewise suspect.
-- Several prices look unusual (e.g. CPU, NEM) - verify against live quotes before acting.
-- Not financial advice.
+- Only 2 candidates; SOL, S32, WDS have strong Graham value scores but miss a minimum (Cash Gen or Momentum).
+- NWS shows DCF upside +148% on a weak-ROE (6.7%) base; treat DCF outputs with caution.
