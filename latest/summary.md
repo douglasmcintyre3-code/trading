@@ -1,19 +1,27 @@
-# ASX Screener Summary 2026-11-16 (Australia/Sydney)
+# ASX Screener Summary 2026-11-18
 
-195 tickers analysed (ASX 200 universe). 5 tickers had no price data (Data_Issues): ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX.
-
-## Candidates (pass all four minimum scores)
-| Ticker | Company | Composite /24 | P/E | P/B | Graham | Momentum | CashGen | Leverage | DCF upside |
-|---|---|---|---|---|---|---|---|---|---|
-| NEM | Newmont CDI | 18 | 13.2 | 3.39 | 4 | 3 | 5 | 6 | +13.9% |
-| CPU | Computershare | 17 | 28.6 | 8.04 | 3 | 3 | 5 | 6 | n/a |
-| S32 | South32 | 17 | 12.7 | 1.45 | 6 | 2 | 3 | 6 | -32.2% |
-| RMD | ResMed CDI | 16 | 22.1 | 2.34 | 3 | 2 | 6 | 5 | -11.5% |
+**Universe:** ASX 200 — 195 tickers analysed, 5 with data issues (ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX: no price history returned).
 
 ## Top 10 by Composite Score (0-24)
-1. NEM 18 · 2. SOL 17 · 3. CPU 17 · 4. S32 17 · 5. RMD 16 · 6. AAI 15 · 7. NWS 15 · 8. ALK 14 · 9. YAL 14 · 10. PRU 14
+| Ticker | Company | Sector | Price | P/E | P/B | % vs SMA200 | Score |
+|---|---|---|---|---|---|---|---|
+| NEM | Newmont CDI | Materials | 160.59 | 12.9 | 3.30 | +1.5% | 19 |
+| SOL | Soul Patts | Financials | 47.40 | 8.1 | 1.41 | +10.6% | 17 |
+| CPU | Computershare | IT | 45.53 | 28.8 | 8.10 | +26.7% | 17 |
+| S32 | South32 | Materials | 4.26 | 12.2 | 1.38 | -4.6% | 16 |
+| RMD | ResMed CDI | Healthcare | 35.50 | 22.3 | 2.36 | +12.8% | 16 |
+| NWS | News Corp B | Comm Services | 43.49 | 26.8 | 1.94 | +0.8% | 15 |
+| WDS | Woodside | Energy | 30.79 | 13.0 | 1.14 | +0.1% | 15 |
+| ALK | Alkane | Materials | 1.705 | 9.5 | 2.09 | +6.1% | 14 |
+| PRU | Perseus | Materials | 6.15 | 13.1 | 2.50 | +10.1% | 14 |
+| AAI | Alcoa CDI | Materials | 54.49 | 6.5 | 1.23 | -30.0% | 14 |
+
+## Candidates (pass all four minimum scores)
+- **NEM** – score 19, FCF yield 4.4%, DCF upside +17%, dividend yield 0.6%
+- **CPU** – score 17, P/E 28.8, 12M return +35%
+- **RMD** – score 16, FCF yield 3.3%, dividend yield 6.9% as shown in file
 
 ## Notable
-- Materials dominate the top 10 (NEM, S32, AAI, ALK, YAL, PRU).
-- SOL scores 6/6 on Graham with P/E 8.2 and P/B 1.44 but is not a candidate (cash generation 2).
-- NWS has the largest DCF upside (+161%) but the DCF relies on a 15% growth cap, so treat with caution.
+- Graham 6/6 names: ZIM, CLW, CYL, SOL, FMG, S32.
+- Strongest momentum (200-day SMA): CSL, ANN, TWE, CPU, CGF.
+- DCF upside outliers (NWS +166%, WOR +229%) rest on a 15% growth cap and should be treated cautiously.
