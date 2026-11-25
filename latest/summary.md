@@ -1,28 +1,24 @@
-# ASX 200 Screener – 2026-11-23 (Australia/Sydney)
+# ASX Screener Summary 2026-11-25
 
-**195 tickers analysed** (200 requested; 5 had no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX).
-
-## Candidates passing all four minimum scores (2)
-| Ticker | Company | Sector | Price | P/E | P/B | ROE | Div Yld | vs SMA200 | Composite |
-|---|---|---|---|---|---|---|---|---|---|
-| CPU | Computershare | Info Tech | 45.99 | 29.1 | 8.18 | 27.1% | 1.8% | +27.1% | 17 |
-| RMD | ResMed CDI | Healthcare | 35.28 | 22.2 | 2.35 | 23.1% | 6.9% | +12.2% | 16 |
+- Universe: ASX 200; 195 tickers analysed, 5 with data issues (no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX).
+- Candidates passing all four minimum scores: 2 (CPU, RMD).
 
 ## Top 10 by Composite Score (0-24)
-| # | Ticker | Sector | Price | P/E | P/B | ROE | Div Yld | vs SMA200 | Graham | Mom | Cash | Lev | Composite |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | CPU | Info Tech | 45.99 | 29.1 | 8.18 | 27.1% | 1.8% | +27.1% | 3 | 3 | 5 | 6 | 17 |
-| 2 | SOL | Financials | 46.07 | 7.8 | 1.37 | 17.2% | 2.4% | +7.1% | 6 | 3 | 2 | 6 | 17 |
-| 3 | NEM | Materials | 148.10 | 11.9 | 3.04 | 20.9% | 0.7% | -6.2% | 4 | 1 | 6 | 6 | 17 |
-| 4 | S32 | Materials | 4.12 | 11.8 | 1.34 | 11.2% | 2.3% | -7.6% | 6 | 1 | 3 | 6 | 16 |
-| 5 | RMD | Healthcare | 35.28 | 22.2 | 2.35 | 23.1% | 6.9% | +12.2% | 3 | 2 | 6 | 5 | 16 |
-| 6 | YAL | Materials | 5.30 | 24.1 | 0.78 | 4.9% | 3.6% | -15.3% | 5 | 1 | 2 | 6 | 14 |
-| 7 | PRU | Materials | 5.85 | 12.4 | 2.37 | 18.6% | 1.7% | +4.7% | 4 | 3 | 1 | 6 | 14 |
-| 8 | AAI | Materials | 52.04 | 6.2 | 1.17 | 18.9% | 0.8% | -32.7% | 5 | 0 | 4 | 5 | 14 |
-| 9 | BRG | Cons Disc | 30.89 | 32.9 | 4.23 | 13.1% | 1.2% | +1.6% | 3 | 3 | 1 | 6 | 13 |
-| 10 | CLW | Real Estate | 3.50 | 9.0 | 0.74 | 8.1% | 7.2% | +1.8% | 6 | 2 | 1 | 4 | 13 |
+| # | Ticker | Company | Sector | Price | P/E | P/B | Div Yld | ROE | 12M Ret | Score |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | CPU | Computershare | Info Tech | 47.83 | 30.3 | 8.51 | 1.8% | 27.1% | 37.8% | 17 |
+| 2 | SOL | Soul Patts | Financials | 47.17 | 8.0 | 1.41 | 2.4% | 17.2% | 27.9% | 17 |
+| 3 | NEM | Newmont CDI | Materials | 149.61 | 12.0 | 3.07 | 0.7% | 20.9% | 8.0% | 17 |
+| 4 | S32 | South32 | Materials | 4.15 | 11.9 | 1.35 | 2.2% | 11.2% | 32.5% | 16 |
+| 5 | RMD | ResMed CDI | Healthcare | 36.71 | 23.1 | 2.44 | 6.8% | 23.1% | -5.9% | 16 |
+| 6 | NWS | News Corp B | Comm Services | 43.32 | 26.7 | 1.93 | 0.5% | 6.7% | -2.9% | 14 |
+| 7 | PRU | Perseus | Materials | 5.83 | 12.4 | 2.37 | 1.6% | 18.6% | 5.5% | 14 |
+| 8 | AAI | Alcoa CDI | Materials | 51.26 | 6.2 | 1.15 | 0.8% | 18.9% | -18.2% | 14 |
+| 9 | YAL | Yancoal | Materials | 5.35 | 24.3 | 0.78 | 3.6% | 4.9% | 1.1% | 14 |
+| 10 | BWP | BWP Trust | Real Estate | 3.75 | 6.7 | 0.88 | 5.3% | 12.1% | 3.3% | 14 |
 
-## Notable
-- Materials dominate the top 10 (NEM, S32, YAL, PRU, AAI).
-- Only 2 stocks clear all four minimum scores.
-- Data_Issues: 5 tickers with no price history (listed above).
+## Candidates (all four minimum scores)
+- CPU: FCF margin 24.6%, 31.6% above SMA200, Graham MoS -70% (expensive on Graham basis).
+- RMD: FCF margin 28.8%, 16.7% above SMA200, Graham MoS -37%.
+
+Notable: both candidates trade well above Graham value; materials names dominate the top 10.
