@@ -1,24 +1,26 @@
-# ASX Screener Summary 2026-11-25
+# ASX 200 Screener 2026-11-27
 
-- Universe: ASX 200; 195 tickers analysed, 5 with data issues (no price history: ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX).
-- Candidates passing all four minimum scores: 2 (CPU, RMD).
+Tickers analysed: 195 (5 with no price data: ASK, IFL, NSR, QUB, XYX).
 
 ## Top 10 by Composite Score (0-24)
-| # | Ticker | Company | Sector | Price | P/E | P/B | Div Yld | ROE | 12M Ret | Score |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | CPU | Computershare | Info Tech | 47.83 | 30.3 | 8.51 | 1.8% | 27.1% | 37.8% | 17 |
-| 2 | SOL | Soul Patts | Financials | 47.17 | 8.0 | 1.41 | 2.4% | 17.2% | 27.9% | 17 |
-| 3 | NEM | Newmont CDI | Materials | 149.61 | 12.0 | 3.07 | 0.7% | 20.9% | 8.0% | 17 |
-| 4 | S32 | South32 | Materials | 4.15 | 11.9 | 1.35 | 2.2% | 11.2% | 32.5% | 16 |
-| 5 | RMD | ResMed CDI | Healthcare | 36.71 | 23.1 | 2.44 | 6.8% | 23.1% | -5.9% | 16 |
-| 6 | NWS | News Corp B | Comm Services | 43.32 | 26.7 | 1.93 | 0.5% | 6.7% | -2.9% | 14 |
-| 7 | PRU | Perseus | Materials | 5.83 | 12.4 | 2.37 | 1.6% | 18.6% | 5.5% | 14 |
-| 8 | AAI | Alcoa CDI | Materials | 51.26 | 6.2 | 1.15 | 0.8% | 18.9% | -18.2% | 14 |
-| 9 | YAL | Yancoal | Materials | 5.35 | 24.3 | 0.78 | 3.6% | 4.9% | 1.1% | 14 |
-| 10 | BWP | BWP Trust | Real Estate | 3.75 | 6.7 | 0.88 | 5.3% | 12.1% | 3.3% | 14 |
+| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | Cash Generation Score (0-6) | Leverage Score (0-6) | DCF Upside % | Composite Score (0-24) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.93 | 12.81 | 3.29 | 4 | 3 | 6 | 6 | 0.18 | 19 |
+| SOL | SOUL W.H. FPO [SOL] | Financials | 46.57 | 7.92 | 1.39 | 6 | 3 | 2 | 6 | n/a | 17 |
+| CPU | CPU.AX | Information Technology | 46.94 | n/a | n/a | 2 | 3 | 5 | 6 | n/a | 16 |
+| S32 | SOUTH32 FPO [S32] | Materials | 4.4 | 12.57 | 1.43 | 6 | 1 | 3 | 6 | -0.31 | 16 |
+| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 36.35 | 22.86 | 2.42 | 3 | 2 | 6 | 5 | -0.14 | 16 |
+| WDS | WOODSIDE FPO [WDS] | Energy | 31.34 | 13.22 | 1.16 | 5 | 3 | 2 | 5 | n/a | 15 |
+| NWS | NEWS CORP B VOTING [NWS] | Communication Services | 43.6 | 26.91 | 1.95 | 2 | 2 | 5 | 5 | 1.65 | 14 |
+| YAL | YANCOAL FPO [YAL] | Materials | 5.65 | 25.68 | 0.83 | 5 | 1 | 2 | 6 | n/a | 14 |
+| PRU | PERSEUS FPO [PRU] | Materials | 6.2 | 13.48 | 2.52 | 4 | 3 | 1 | 6 | n/a | 14 |
+| RRL | REGIS FPO [RRL] | Materials | 6.19 | 6.25 | 2.15 | 5 | 1 | 1 | 6 | n/a | 13 |
 
-## Candidates (all four minimum scores)
-- CPU: FCF margin 24.6%, 31.6% above SMA200, Graham MoS -70% (expensive on Graham basis).
-- RMD: FCF margin 28.8%, 16.7% above SMA200, Graham MoS -37%.
+## Candidates passing all four minimum scores (2)
+| Ticker | Company | Sector | Price | P/E | P/B | Graham Score (0-6) | Momentum Score (0-3) | Cash Generation Score (0-6) | Leverage Score (0-6) | DCF Upside % | Composite Score (0-24) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| NEM | NEWMONT CDI 1:1 [NEM] | Materials | 159.93 | 12.81 | 3.29 | 4 | 3 | 6 | 6 | 0.18 | 19 |
+| RMD | RESMED CDI 10:1 [RMD] | Healthcare | 36.35 | 22.86 | 2.42 | 3 | 2 | 6 | 5 | -0.14 | 16 |
 
-Notable: both candidates trade well above Graham value; materials names dominate the top 10.
+## Data issues
+ASK.AX, IFL.AX, NSR.AX, QUB.AX, XYX.AX: no price history returned.
